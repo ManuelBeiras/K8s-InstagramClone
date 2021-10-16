@@ -55,3 +55,18 @@ Conseguir logs de las aplicaciones:
 ```
 kubectl logs {pod-nombre}
 ```
+Conseguir información detellada de los recursos de K8s (Lanzar comando desde la consola):
+```
+kubectl api-resources
+```
+
+## Ejecución del proyecto:
+1. Estando desde la raíz de todos los archivos aplicamos todos los .yaml:
+```
+kubectl apply -f volume.yaml
+kubectl apply -f volume-claim.yaml
+kubectl apply -f postgres-config.yaml
+kubectl apply -f postgres-secret.yaml
+kubectl apply -f postgres.yaml
+kubectl apply -f fctgram.yaml
+```
