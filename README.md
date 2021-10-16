@@ -10,7 +10,7 @@ Proyecto de FCT Dockerizado y montado en K8s, con todos los pasos necesarios par
 - postgres.yaml
 - fctgram.yaml
 
-## Ejecución del proyecto:
+## Ejecución del proyecto
 1. Estando desde la raíz de todos los archivos aplicamos todos los .yaml:
 ```
 kubectl apply -f volume.yaml
@@ -52,7 +52,7 @@ Una vez dentro de la aplicación, para acceder al apartado administrativo de la 
 ```
 {ip:puerto/FCT} --> Podrás acceder con el usuario administrador creado antes.
 ```
-## Eliminamos todo:
+## Eliminamos todo
 ```
 kubectl delete deploy webapp-deployment -n default
 kubectl delete deploy postgres-deployment -n default
