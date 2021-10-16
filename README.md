@@ -94,3 +94,7 @@ Se ha detectado a fecha 16/10/2021 que si usas --driver=docker tanto en Windows 
 ```
 minikube service webapp-service --> Tras hacer esto te dirá cuál es la ip para acceder a la aplicación.
 ```
+Una vez dentro de la aplicación, para acceder al apartado administrativo de la aplicación:
+```
+{ip:puerto/FCT} --> Podrás acceder con el usuario administrador creado usado antes.
+```
