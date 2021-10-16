@@ -9,6 +9,7 @@ Proyecto de FCT Dockerizado y montado en K8s, con todos los pasos necesarios par
 - volume.yaml
 - postgres.yaml
 - fctgram.yaml
+- database.sql
 
 ## Ejecución del proyecto
 1. Estando desde la raíz de todos los archivos aplicamos todos los .yaml:
