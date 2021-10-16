@@ -135,7 +135,7 @@ kubectl api-resources
 ```
 
 ## Links
-- postgresql image en Docker Hub: 
+- postgresql image en Docker Hub: https://hub.docker.com/_/postgres
 - fctgram image en Docker Hub: https://hub.docker.com/r/manuelbeiras/fctgram
 - Documentación oficial de K8s: https://kubernetes.io/docs/home/
 - Documentación oficial de Minikube: https://minikube.sigs.k8s.io/docs/
