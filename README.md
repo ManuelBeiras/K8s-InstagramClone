@@ -14,7 +14,7 @@ Poryecto de FCT Dockerizado y montado en K8s, con todos los pasos necesarios par
 
 Arrancamos Minikube y comprobamos el status de este:
 ```
-minikube start --driver=docker ![](https://progress-bar.dev/90/?title=Windows) y ![](https://progress-bar.dev/90/?title=Linux)
+minikube start --driver=docker (Windows y Linux)
 minikube start --vm-driver=hyperkit (macOS)
 minikube status
 ```
@@ -85,7 +85,12 @@ kubectl exec -it webapp-deployment-67c94d7c7f-zjpks -- /bin/bash --> Entramos en
 python manage.py createsuperuser --> (Te pedirá Nombre, correo, contraseña)
 ```
 4. Accedemos a la aplicación:
+⚠ Para macOS ⚠
 ```
-minikube ip --> Conseguimos la ip de Minikube, con esto accedemos a la aplicación a través de {minikubeip:30100} ![](https://progress-bar.dev/90/?title=macOS)
-![](https://progress-bar.dev/90/?title=Windows) y ![](https://progress-bar.dev/90/?title=Linux)
+minikube ip --> Conseguimos la ip de Minikube, con esto accedemos a la aplicación a través de {minikubeip:30100}
+```
+⚠ Para Windows y Linux ⚠
+Se ha detectado a fecha 16/10/2021 que si usas --driver=docker tanto en Windows como en Linux no puedes acceder con la ip de Minikube. (✅ Solución ✅)
+```
+minikube service webapp-service --> Tras hacer esto te dirá cuál es la ip para acceder a la aplicación.
 ```
