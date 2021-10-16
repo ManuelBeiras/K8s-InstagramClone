@@ -74,7 +74,7 @@ kubectl apply -f fctgram.yaml
 ```
 kubectl get all --> Buscar y copiar postgres-deployment-{}
 kubectl cp ./database.sql postgres-deployment-{}:database.sql --> Copias la base de datos en el contenedor.
-kubectl exec -it postgres-deployment-{} -- /bin/bash --> Entramos en el contenedor de forma interactiva y lanzamos los siguientes comandos:
+kubectl exec -it postgres-deployment-{} -- /bin/bash --> Entramos en el contenedor de forma interactiva y lanzamos:
 su postgres
 psql postgres < database.sql
 ```
