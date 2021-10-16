@@ -77,7 +77,7 @@ Eliminamos:
         name: my-app-pvc-my-app-0
         namespace: default
         resourceVersion: "{*}"
-        uid: "{*}"
+        uid: "{*}""
 Confirmamos la edición con:
 :wq!
 Ahora nos deja eliminar tanto el volumen como el volumen claim:
