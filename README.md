@@ -102,3 +102,34 @@ Una vez dentro de la aplicación, para acceder al apartado administrativo de la 
 ```
 {ip:puerto/FCT} --> Podrás acceder con el usuario administrador creado usado antes.
 ```
+## Eliminamos todo:
+```
+kubectl delete deploy webapp-deployment -n default
+kubectl delete deploy postgres-deployment -n default
+kubectl delete service webapp-service
+kubectl delete service postgres-service
+kubectl delete configmap postgres-config
+kubectl delete secret postgres-secret
+```
+⚠ Volúmenes ⚠
+
+Existe un problema con los volúmenes que al borrarlos se queda en estado "Terminating" y no se borran.
+
+✅ Solución ✅
+```
+kubectl get pv
+kubectl edit pv postgres-pv
+Eliminamos:
+"claimRef:
+        apiVersion: v1
+        kind: PersistentVolumeClaim
+        name: my-app-pvc-my-app-0
+        namespace: default
+        resourceVersion: "{*}"
+        uid: "{*}"
+Confirmamos la edición con:
+:wq!
+Ahora nos deja eliminar tanto el volumen como el volumen claim:
+kubectl delete pv postgres-pv
+kubectl delete pvc postgres-pvc
+```
