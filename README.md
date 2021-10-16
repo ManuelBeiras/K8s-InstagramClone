@@ -144,6 +144,8 @@ kubectl api-resources
 
 ## ⚠ Apuntes finales ⚠
 Este proyecto de K8s está hecho por mí desde de 0 teniendo poca experiencia en este mundillo.
+
 Todo tipo de ayuda/feedback de como mejorar es más que bienvenida.
+
 Puedes contactar conmigo a través de:
 https://www.linkedin.com/in/manuel-beiras-belloso-826063218/
