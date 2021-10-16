@@ -14,7 +14,7 @@ Poryecto de FCT Dockerizado y montado en K8s, con todos los pasos necesarios par
 
 Arrancamos Minikube y comprobamos el status de este:
 ```
-minikube start --driver=docker (Windows y Linux)
+minikube start --driver=docker ![](https://progress-bar.dev/90/?title=Windows) y ![](https://progress-bar.dev/90/?title=Linux)
 minikube start --vm-driver=hyperkit (macOS)
 minikube status
 ```
@@ -83,4 +83,9 @@ psql postgres < database.sql
 kubectl exec -it webapp-deployment-67c94d7c7f-zjpks -- python manage.py migrate --> Actualiza la base de datos.
 kubectl exec -it webapp-deployment-67c94d7c7f-zjpks -- /bin/bash --> Entramos en el contenedor de forma interactiva y lanzamos:
 python manage.py createsuperuser --> (Te pedirá Nombre, correo, contraseña)
+```
+4. Accedemos a la aplicación:
+```
+minikube ip --> Conseguimos la ip de Minikube, con esto accedemos a la aplicación a través de {minikubeip:30100} ![](https://progress-bar.dev/90/?title=macOS)
+![](https://progress-bar.dev/90/?title=Windows) y ![](https://progress-bar.dev/90/?title=Linux)
 ```
