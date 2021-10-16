@@ -94,7 +94,7 @@ minikube ip --> Conseguimos la ip de Minikube, con esto accedemos a la aplicaci�
 
 Se ha detectado a fecha 16/10/2021 que si usas el driver de docker desktop (--driver=docker) tanto en Windows como en Linux no puedes acceder con la ip de Minikube. 
 
-(✅ Solución ✅)
+✅ Solución ✅
 ```
 minikube service webapp-service --> Tras hacer esto te dirá cuál es la ip para acceder a la aplicación.
 ```
