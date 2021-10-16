@@ -133,3 +133,16 @@ Conseguir información detellada de los recursos de K8s (Lanzar comando desde la
 ```
 kubectl api-resources
 ```
+
+## Links
+- postgresql image en Docker Hub: 
+- fctgram image en Docker Hub: https://hub.docker.com/r/manuelbeiras/fctgram
+- Documentación oficial de K8s: https://kubernetes.io/docs/home/
+- Documentación oficial de Minikube: https://minikube.sigs.k8s.io/docs/
+- Instalar Minikube en WSL: https://lemoncode.net/lemoncode-blog/2021/6/12/usando-kubernetes-en-local-minikube-instalacion-en-windows
+
+## ⚠ Apuntes finales ⚠
+Este proyecto de K8s está hecho por mí desde de 0 teniendo poca experiencia en este mundillo.
+Todo tipo de ayuda/feedback de como mejorar es más que bienvenida.
+Puedes contactar conmigo a través de:
+https://www.linkedin.com/in/manuel-beiras-belloso-826063218/
