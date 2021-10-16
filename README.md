@@ -10,8 +10,9 @@ Poryecto de FCT Dockerizado y montado en K8s, con todos los pasos necesarios par
 - postgres.yaml
 - fctgram.yaml
 
-## Arrancamos Minikube y comprobamos el status de este
+## Comandos para K8s
 
+Arrancamos Minikube y comprobamos el status de este:
 ```
 minikube start --driver=docker (Windows y Linux)
 minikube start --vm-driver=hyperkit (macOS)
