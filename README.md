@@ -31,6 +31,7 @@ psql postgres < database.sql
 ```
 3. Actualizamos la base de datos de la aplicación y creamos un superusuario: (⚠ Crítico para que la app funcione ⚠)
 ```
+kubectl get all --> Buscar y copiar webapp-deployment-{}
 kubectl exec -it webapp-deployment-{} -- python manage.py migrate --> Actualiza la base de datos.
 kubectl exec -it webapp-deployment-{} -- /bin/bash --> Entramos en el contenedor de forma interactiva y lanzamos:
 python manage.py createsuperuser --> (Te pedirá Nombre, correo, contraseña)
