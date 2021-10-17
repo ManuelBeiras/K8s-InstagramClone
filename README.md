@@ -149,4 +149,4 @@ Este proyecto de K8s está hecho por mí de 0 teniendo poca experiencia en este 
 Todo tipo de ayuda/feedback de como mejorar es más que bienvenida.
 
 Puedes contactar conmigo a través de:
-https://www.linkedin.com/in/manuel-beiras-belloso-826063218/
+https://www.linkedin.com/in/manuel-beiras-belloso/
