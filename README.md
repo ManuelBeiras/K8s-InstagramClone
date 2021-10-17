@@ -1,7 +1,7 @@
 # K8s-InstagramClone ✅ ![](https://progress-bar.dev/100/?title=Windows) ✅ ![](https://progress-bar.dev/100/?title=Linux) ✅ ![](https://progress-bar.dev/100/?title=macOS) 
 Proyecto de FCT Dockerizado y montado en K8s, con todos los pasos necesarios para hacerla funcionar + cheat sheet. Montada con entorno Windows Linux Subsystem (WSL) y Minikube. 
 
-## Archivos necesarios para el funcionamiento de esta applicación
+## Archivos necesarios para el funcionamiento de esta aplicación
 
 - postgres-config.yaml
 - postgres-secret.yaml
