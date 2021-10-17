@@ -144,7 +144,7 @@ kubectl api-resources
 - Instalar Minikube en WSL: https://lemoncode.net/lemoncode-blog/2021/6/12/usando-kubernetes-en-local-minikube-instalacion-en-windows
 
 ## ⚠ Apuntes finales ⚠
-Este proyecto de K8s está hecho por mí desde de 0 teniendo poca experiencia en este mundillo.
+Este proyecto de K8s está hecho por mí de 0 teniendo poca experiencia en este mundillo.
 
 Todo tipo de ayuda/feedback de como mejorar es más que bienvenida.
 
